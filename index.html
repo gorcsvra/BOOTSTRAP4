@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+  <script src="https://use.fontawesome.com/releases/v5.15.2/js/all.js" data-auto-replace-svg="nest"></script>
   <title>főoldal</title>
 </head>
 
@@ -51,45 +51,85 @@
     </div>
   </nav>
   <Header>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="/index-carusel/muffin-carusel.jpg" height="398" class="d-block w-100" alt="Muffin">
+          <div class="carousel-caption d-none d-md-block bg-dark p-4">
+            <h5>Muffin</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/index-carusel/Répa-carusel.jpg" height="398" class="d-block w-100" alt="Répa">
+          <div class="carousel-caption d-none d-md-block bg-dark p-4">
+            <h5>Répa</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="/index-carusel/tojás carusel.jpg" height="398" class="d-block w-100" alt="tojás">
+          <div class="carousel-caption d-none d-md-block bg-dark p-4">
+            <h5>Tojás</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="/index-carusel/muffin-carusel.jpg" height="398" class="d-block w-100" alt="Muffin">
-        <div class="carousel-caption d-none d-md-block bg-dark p-4">
-          <h5>Muffin</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="/index-carusel/Répa-carusel.jpg" height="398" class="d-block w-100" alt="Répa">
-        <div class="carousel-caption d-none d-md-block bg-dark p-4">
-          <h5>Répa</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="/index-carusel/tojás carusel.jpg" height="398" class="d-block w-100" alt="tojás">
-        <div class="carousel-caption d-none d-md-block bg-dark p-4">
-          <h5>Tojás</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
   </Header>
+  <main>
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="media">
+              <i class="fas fa-shipping-fast fa-2x fa-fw mr-3" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Házhoz szállítás</h5>
+                <p> Cras sit amet nibh libero, in gravida nulla. </p>
+              </div>
+            </div>
+          </div>
+
+
+          
+              <div class="col-md-4">
+                <div class="media">
+                  <i class="fas fa-shopping-basket fa-2x fa-fw mr-3" aria-hidden="true"></i>
+                  <div class="media-body">
+                    <h5 class="mt-0">Élelmiszer</h5>
+                    <p> Cras sit amet nibh libero, in gravida nulla. </p>
+                  </div>
+                </div>
+              </div>
+
+
+             
+                  <div class="col-md-4">
+                    <div class="media">
+                      <i class="fas fa-pump-soap fa-2x fa-fw mr-3" aria-hidden="true"></i>
+                      <div class="media-body">
+                        <h5 class="mt-0">Vegyiáru</h5>
+                        <p> Cras sit amet nibh libero, in gravida nulla. </p>
+                      </div>
+                    </div>
+                  </div>
+    </section>
+  </main>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -101,16 +141,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-    <script type='text/javascript'>
-      $(document).ready(function() {
-           $('.carousel').carousel({
-               interval: 3000
-           })
-      });    
+  <script type='text/javascript'>
+    $(document).ready(function () {
+      $('.carousel').carousel({
+        interval: 3000
+      })
+    });    
   </script>
   <script>
     $('#indexCarusel').carusel({
-      intervel:3000
+      intervel: 3000
     })
   </script>
 </body>
